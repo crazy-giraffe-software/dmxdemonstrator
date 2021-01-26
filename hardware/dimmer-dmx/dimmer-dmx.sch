@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "DMX Demonstrator - Receiver w/ DMX output (DMX-DD1)"
-Date "2020-12-30"
-Rev "1.0"
+Date "2021-01-23"
+Rev "1.1"
 Comp "Crazy Giraffe Software"
 Comment1 ""
 Comment2 "Designed by: SparkyBobo"
@@ -246,21 +246,21 @@ NoConn ~ 5300 3550
 $Comp
 L dk_Optoisolators-Logic-Output:6N137 U2
 U 1 1 5F5E5DAA
-P 6500 2400
-F 0 "U2" H 6800 2200 60  0000 C CNN
-F 1 "6N137" H 6750 2100 60  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 6700 2600 60  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/6N137%20Series.pdf" H 6700 2700 60  0001 L CNN
-F 4 "160-1791-ND" H 6700 2800 60  0001 L CNN "Digi-Key_PN"
-F 5 "6N137" H 6700 2900 60  0001 L CNN "MPN"
-F 6 "Isolators" H 6700 3000 60  0001 L CNN "Category"
-F 7 "Optoisolators - Logic Output" H 6700 3100 60  0001 L CNN "Family"
-F 8 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/6N137%20Series.pdf" H 6700 3200 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/lite-on-inc/6N137/160-1791-ND/1969175" H 6700 3300 60  0001 L CNN "DK_Detail_Page"
-F 10 "OPTOISO 5KV 1CH OPEN COLL 8DIP" H 6700 3400 60  0001 L CNN "Description"
-F 11 "Lite-On Inc." H 6700 3500 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6700 3600 60  0001 L CNN "Status"
-	1    6500 2400
+P 6500 2350
+F 0 "U2" H 6800 2150 60  0000 C CNN
+F 1 "6N137" H 6750 2050 60  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 6700 2550 60  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/6N137%20Series.pdf" H 6700 2650 60  0001 L CNN
+F 4 "160-1791-ND" H 6700 2750 60  0001 L CNN "Digi-Key_PN"
+F 5 "6N137" H 6700 2850 60  0001 L CNN "MPN"
+F 6 "Isolators" H 6700 2950 60  0001 L CNN "Category"
+F 7 "Optoisolators - Logic Output" H 6700 3050 60  0001 L CNN "Family"
+F 8 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/6N137%20Series.pdf" H 6700 3150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/lite-on-inc/6N137/160-1791-ND/1969175" H 6700 3250 60  0001 L CNN "DK_Detail_Page"
+F 10 "OPTOISO 5KV 1CH OPEN COLL 8DIP" H 6700 3350 60  0001 L CNN "Description"
+F 11 "Lite-On Inc." H 6700 3450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6700 3550 60  0001 L CNN "Status"
+	1    6500 2350
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -268,7 +268,7 @@ L Interface_UART:MAX3485 U5
 U 1 1 5F5E5E97
 P 7900 3650
 F 0 "U5" H 8050 4200 50  0000 C CNN
-F 1 "MAX3485" H 8150 4100 50  0000 C CNN
+F 1 "MAX3485CPA+" H 8250 4100 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 7900 2950 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf" H 7900 3700 50  0001 C CNN
 	1    7900 3650
@@ -297,12 +297,12 @@ $EndComp
 $Comp
 L Device:R_US R6
 U 1 1 5F5E641A
-P 7200 2500
-F 0 "R6" V 6995 2500 50  0000 C CNN
-F 1 "470" V 7086 2500 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7240 2490 50  0001 C CNN
-F 3 "~" H 7200 2500 50  0001 C CNN
-	1    7200 2500
+P 7200 2450
+F 0 "R6" V 6995 2450 50  0000 C CNN
+F 1 "470" V 7086 2450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7240 2440 50  0001 C CNN
+F 3 "~" H 7200 2450 50  0001 C CNN
+	1    7200 2450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -338,12 +338,12 @@ $EndComp
 $Comp
 L power:VDD #PWR0107
 U 1 1 5F5F113E
-P 7000 2050
-F 0 "#PWR0107" H 7000 1900 50  0001 C CNN
-F 1 "VDD" H 7017 2223 50  0000 C CNN
-F 2 "" H 7000 2050 50  0001 C CNN
-F 3 "" H 7000 2050 50  0001 C CNN
-	1    7000 2050
+P 7000 2000
+F 0 "#PWR0107" H 7000 1850 50  0001 C CNN
+F 1 "VDD" H 7017 2173 50  0000 C CNN
+F 2 "" H 7000 2000 50  0001 C CNN
+F 3 "" H 7000 2000 50  0001 C CNN
+	1    7000 2000
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6900 3600
@@ -365,8 +365,6 @@ Wire Wire Line
 Wire Wire Line
 	7200 3350 7200 3700
 Connection ~ 7200 3700
-Wire Wire Line
-	7200 3700 6900 3700
 Wire Wire Line
 	6500 3400 6500 3350
 Wire Wire Line
@@ -399,52 +397,50 @@ $EndComp
 $Comp
 L power:GND #PWR0110
 U 1 1 5F5FE08B
-P 6500 2700
-F 0 "#PWR0110" H 6500 2450 50  0001 C CNN
-F 1 "GND" H 6505 2527 50  0000 C CNN
-F 2 "" H 6500 2700 50  0001 C CNN
-F 3 "" H 6500 2700 50  0001 C CNN
-	1    6500 2700
+P 6500 2650
+F 0 "#PWR0110" H 6500 2400 50  0001 C CNN
+F 1 "GND" H 6505 2477 50  0000 C CNN
+F 2 "" H 6500 2650 50  0001 C CNN
+F 3 "" H 6500 2650 50  0001 C CNN
+	1    6500 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R5
 U 1 1 5F605513
-P 6050 2050
-F 0 "R5" V 5845 2050 50  0000 C CNN
-F 1 "470" V 5936 2050 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6090 2040 50  0001 C CNN
-F 3 "~" H 6050 2050 50  0001 C CNN
-	1    6050 2050
+P 6050 2000
+F 0 "R5" V 5845 2000 50  0000 C CNN
+F 1 "470" V 5936 2000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6090 1990 50  0001 C CNN
+F 3 "~" H 6050 2000 50  0001 C CNN
+	1    6050 2000
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR0111
 U 1 1 5F6055A9
-P 6500 2000
-F 0 "#PWR0111" H 6500 1850 50  0001 C CNN
-F 1 "+5V" H 6515 2173 50  0000 C CNN
-F 2 "" H 6500 2000 50  0001 C CNN
-F 3 "" H 6500 2000 50  0001 C CNN
-	1    6500 2000
+P 6500 1950
+F 0 "#PWR0111" H 6500 1800 50  0001 C CNN
+F 1 "+5V" H 6515 2123 50  0000 C CNN
+F 2 "" H 6500 1950 50  0001 C CNN
+F 3 "" H 6500 1950 50  0001 C CNN
+	1    6500 1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 2050 6500 2050
+	6200 2000 6500 2000
+Wire Wire Line
+	6500 2000 6500 1950
 Wire Wire Line
 	6500 2050 6500 2000
+Connection ~ 6500 2000
 Wire Wire Line
-	6500 2100 6500 2050
-Connection ~ 6500 2050
+	5900 2000 5800 2000
 Wire Wire Line
-	6100 2400 5800 2400
+	5800 2000 5800 2350
+Connection ~ 5800 2350
 Wire Wire Line
-	5900 2050 5800 2050
-Wire Wire Line
-	5800 2050 5800 2400
-Connection ~ 5800 2400
-Wire Wire Line
-	5800 2400 5500 2400
+	5800 2350 5500 2350
 $Comp
 L dk_Optoisolators-Logic-Output:6N137 U4
 U 1 1 5F60D784
@@ -484,8 +480,6 @@ Wire Wire Line
 Wire Wire Line
 	7200 4700 7200 5050
 Connection ~ 7200 5050
-Wire Wire Line
-	7200 5050 6900 5050
 Wire Wire Line
 	6500 4750 6500 4700
 Wire Wire Line
@@ -576,11 +570,7 @@ $EndComp
 Wire Wire Line
 	5600 3800 5650 3800
 Wire Wire Line
-	5950 3800 6100 3800
-Wire Wire Line
 	5500 5150 5650 5150
-Wire Wire Line
-	5950 5150 6100 5150
 $Comp
 L Device:R_US R13
 U 1 1 5F648DFD
@@ -597,10 +587,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 3650 7400 3700
 Connection ~ 7400 3700
-Wire Wire Line
-	7400 2500 7400 3550
-Wire Wire Line
-	5500 2400 5500 2850
 Wire Wire Line
 	7400 3850 7400 5050
 $Comp
@@ -761,32 +747,23 @@ F 3 "" H 5250 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 6750 4850 6750
-Wire Wire Line
 	5250 6550 5250 6750
 Wire Wire Line
 	4700 7150 4850 7150
 Wire Wire Line
 	4850 7150 4850 7350
 NoConn ~ 4700 6950
-Wire Wire Line
-	4850 6750 4850 6350
-Connection ~ 4850 6750
-Wire Wire Line
-	4850 6750 5250 6750
 $Comp
 L Regulator_Switching:NMA0505SC U1
 U 1 1 5F5E628E
 P 4200 6950
 F 0 "U1" H 4200 7417 50  0000 C CNN
 F 1 "NMA0505SC" H 4200 7326 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_NMAxxxxSC_THT" H 4200 6600 50  0001 C CIN
+F 2 "footprints:Converter_DCDC_muRata_NMAxxxxSC_THT_Bypass" H 4200 6600 50  0001 C CIN
 F 3 "http://power.murata.com/data/power/ncl/kdc_nma.pdf" H 4200 6950 50  0001 C CNN
 	1    4200 6950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3500 6750 3700 6750
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5F7CBB6F
@@ -810,12 +787,7 @@ F 3 "" H 3100 6550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 6350 3500 6750
-Wire Wire Line
 	3100 6550 3100 6750
-Wire Wire Line
-	3100 6750 3500 6750
-Connection ~ 3500 6750
 Wire Wire Line
 	3100 7400 3100 7150
 Wire Wire Line
@@ -823,7 +795,7 @@ Wire Wire Line
 Connection ~ 3500 7150
 Wire Wire Line
 	3500 7150 3700 7150
-NoConn ~ 6100 2300
+NoConn ~ 6100 2250
 $Comp
 L Device:C C5
 U 1 1 5F7E96C0
@@ -1119,58 +1091,18 @@ Wire Wire Line
 Wire Wire Line
 	3500 7150 3500 7400
 Wire Wire Line
-	6900 2500 7050 2500
-Wire Wire Line
-	6900 2300 7000 2300
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 5FEEDE83
-P 3500 6150
-F 0 "J4" V 3450 6050 50  0000 R CNN
-F 1 "Bypass" V 3350 6050 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3500 6150 50  0001 C CNN
-F 3 "~" H 3500 6150 50  0001 C CNN
-	1    3500 6150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J5
-U 1 1 5FEEDF5F
-P 4850 6150
-F 0 "J5" V 4800 6350 50  0000 R CNN
-F 1 "Bypass" V 4700 6700 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4850 6150 50  0001 C CNN
-F 3 "~" H 4850 6150 50  0001 C CNN
-	1    4850 6150
-	0    -1   -1   0   
-$EndComp
+	6900 2250 7000 2250
 Text Notes 5600 2750 0    50   ~ 0
 Connect\npin 3 to 6\nto bypass\nisolator
-Text Notes 5600 4200 0    50   ~ 0
+Text Notes 5600 4250 0    50   ~ 0
 Connect\npin 3 to 6\nto bypass\nisolator
-Wire Notes Line
-	6050 2400 6050 2950
-Wire Notes Line
-	6050 2950 7000 2950
-Wire Notes Line
-	7000 2950 7000 2500
-Wire Notes Line
-	6050 3800 6050 4250
-Wire Notes Line
-	6050 4250 7000 4250
-Wire Notes Line
-	7000 4250 7000 3700
-Text Notes 5550 5550 0    50   ~ 0
+Text Notes 5600 5600 0    50   ~ 0
 Connect\npin 3 to 6\nto bypass\nisolator
-Wire Notes Line
-	6050 5150 6050 5600
 Wire Notes Line
 	6050 5600 7000 5600
 Wire Notes Line
-	7000 5600 7000 5050
-Wire Notes Line
-	3600 6150 4750 6150
-Text Notes 3850 6100 0    50   ~ 0
+	3650 6350 4750 6350
+Text Notes 3850 6300 0    50   ~ 0
 Connect J4 to J5\nto bypass isolator
 Text Notes 3800 7600 0    50   ~ 0
 Connect pin 2 to 4\nto bypass isolator
@@ -1181,7 +1113,51 @@ Wire Notes Line
 Wire Notes Line
 	4750 7350 4750 7150
 Wire Wire Line
-	7350 2500 7400 2500
+	7350 2450 7400 2450
 Wire Wire Line
-	7000 2300 7000 2050
+	7000 2250 7000 2000
+Wire Wire Line
+	4700 6750 5250 6750
+Wire Wire Line
+	3100 6750 3700 6750
+Wire Notes Line
+	4750 6350 4750 6750
+Wire Notes Line
+	3650 6350 3650 6750
+Wire Wire Line
+	7400 2450 7400 3550
+Wire Wire Line
+	5500 2350 5500 2850
+Wire Wire Line
+	6900 2450 7050 2450
+Wire Wire Line
+	5800 2350 6100 2350
+Wire Wire Line
+	5950 3800 6100 3800
+Wire Wire Line
+	6900 3700 7200 3700
+Wire Wire Line
+	6900 5050 7200 5050
+Wire Wire Line
+	5950 5150 6100 5150
+Wire Notes Line
+	6050 5600 6050 5150
+Wire Notes Line
+	6050 5150 6400 5150
+Wire Notes Line
+	6400 5150 6400 5350
+Wire Notes Line
+	7000 5600 7000 5050
+Wire Notes Line
+	7000 3700 7000 4250
+Wire Notes Line
+	6050 3800 6050 4250
+Wire Notes Line
+	6050 2350 6050 2900
+Wire Notes Line
+	6050 2900 7000 2900
+Wire Notes Line
+	7000 2900 7000 2450
+Wire Notes Line
+	6050 4250 7000 4250
 $EndSCHEMATC
