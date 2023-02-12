@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "DMX Demonstrator - Control-Pro Clock (DMX-CPCB)"
-Date "2022-09-06"
+Date "2023-02-11"
 Rev "1.2"
 Comp "Crazy Giraffe Software"
 Comment1 ""
@@ -249,7 +249,7 @@ U 1 1 5F560541
 P 5950 3400
 F 0 "J1" H 6000 3917 50  0000 C CNN
 F 1 "OUTPUT" H 6000 3826 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 5950 3400 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Horizontal" H 5950 3400 50  0001 C CNN
 F 3 "~" H 5950 3400 50  0001 C CNN
 	1    5950 3400
 	1    0    0    -1  
@@ -444,7 +444,7 @@ U 1 1 63189B70
 P 4150 3400
 F 0 "J2" H 4200 3917 50  0000 C CNN
 F 1 "INPUT" H 4200 3826 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 4150 3400 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Horizontal" H 4150 3400 50  0001 C CNN
 F 3 "~" H 4150 3400 50  0001 C CNN
 	1    4150 3400
 	-1   0    0    -1  

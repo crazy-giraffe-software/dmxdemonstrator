@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "DMX Demonstrator - Control-Pro Dimmer (DMX-CPDB)"
-Date "2022-09-06"
+Date "2023-02-11"
 Rev "1.2"
 Comp "Crazy Giraffe Software"
 Comment1 ""
@@ -340,7 +340,7 @@ U 1 1 6317F360
 P 4650 3600
 F 0 "J1" H 4700 4117 50  0000 C CNN
 F 1 "OUTPUT" H 4700 4026 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 4650 3600 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Horizontal" H 4650 3600 50  0001 C CNN
 F 3 "~" H 4650 3600 50  0001 C CNN
 	1    4650 3600
 	1    0    0    -1  
@@ -447,7 +447,7 @@ U 1 1 631A71FE
 P 7050 3600
 F 0 "J2" H 7100 4117 50  0000 C CNN
 F 1 "INPUT" H 7100 4026 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 7050 3600 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Horizontal" H 7050 3600 50  0001 C CNN
 F 3 "~" H 7050 3600 50  0001 C CNN
 	1    7050 3600
 	-1   0    0    -1  
@@ -533,7 +533,7 @@ L Device:LED D8
 U 1 1 631930D1
 P 4650 2600
 F 0 "D8" H 4641 2816 50  0000 C CNN
-F 1 "LED" H 4641 2725 50  0000 C CNN
+F 1 "ACTIVE" H 4641 2725 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 4650 2600 50  0001 C CNN
 F 3 "~" H 4650 2600 50  0001 C CNN
 	1    4650 2600

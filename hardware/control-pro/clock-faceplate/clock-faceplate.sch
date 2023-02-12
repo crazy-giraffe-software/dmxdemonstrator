@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "DMX Demonstrator - Control-Pro Clock (DMX-CPCF)"
-Date "2022-09-06"
+Date "2023-02-11"
 Rev "1.2"
 Comp "Crazy Giraffe Software"
 Comment1 ""
