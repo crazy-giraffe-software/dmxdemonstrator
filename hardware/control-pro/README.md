@@ -1,4 +1,4 @@
-# DMX Demonstrator Control-Pro  (DMX-CP*)
+# DMX Demonstrator Control Pro  (DMX-CP*)
 
 ![status](https://img.shields.io/badge/status-design-red)
 
@@ -10,9 +10,9 @@ The control pro is designed so that a series of components are sandwiched betwee
 
 ## Online parts list
 
-Sparkfun offers some, but not all, of the components required for the control-pro. For the parts they can supply, you can find a parts lists [here](https://www.sparkfun.com/wish_lists/160543).
+Sparkfun offers some, but not all, of the components required for the Control Pro. For the parts they can supply, you can find a parts lists [here](https://www.sparkfun.com/wish_lists/160543).
 
-Additionally, you'll need some parts from the common parts lists as well. You can find the common parts list [here](https://www.sparkfun.com/wish_lists/160406). The rainbow LED pack include 2 sets of LED so if you are building more than 2 transmitters or receivers, make sure to buy 1 pack for every 2 transmitters and receivers.
+Additionally, you'll need some parts from the common parts lists as well. You can find the common parts list [here](https://www.sparkfun.com/wish_lists/160406). The rainbow LED pack include 2 sets of LED so if you are building more than 2 transmitters or receivers, make sure to buy 1 pack for every 2 transmitters/receivers.
 
 ## PCB
 
@@ -33,6 +33,8 @@ OHSPark offers really great quality at great prices, they are easy to work with,
 I offer this opinion freely and do not receive any compensation from OHSPark.
 
 ## Parts
+
+The Control Pro is designed so that a series of components are sandwiched between 2 circuit boards. As a result, the heights of the components are fairly sensitive in order to make things line up nicely. Here are the parts for which I designed. The DMX-CPDB and DMX-CPCB boards contains all the parts and are the bottom of the sandwich, the DMX-CPDF and DMX-CPCB are the faceplate, i.e. the tops of the sandwich. If you are wondering why there are 4 total boards, see _PCB->Quality vs Price_.
 
 ### Slider Potentiometers
 
@@ -131,12 +133,6 @@ The control-pro has a few resistors and capacitors listed on the schematic. The 
 
 ### Rev 1.2
 
-#### DMX-TX2
-
-- Added buffer to drive LEDs
-- Added decoupling capacitors
-- Fixed dimmer traces on PCB
-
 #### DMX-CPC*
 
 - Split clock controls out to its own PCB
@@ -152,16 +148,6 @@ The control-pro has a few resistors and capacitors listed on the schematic. The 
 - Switched to horizontal 16 pin connectors since vertical was too tall with a cable plugged in
 
 ### Rev 1.1
-
-#### DMX-TX2
-
-- Fixed shield footprint
-- Moved Clock LED to avoid Arduino ICSP connector.
-- Relabeled the clock fast and slow LED connections in the
-  schematic to match the board layout.
-- Added Fcu power plane
-- Redid Fcu layout
-- Added rounded corners
 
 #### DMX-CPB
 
