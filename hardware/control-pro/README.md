@@ -1,6 +1,6 @@
 # DMX Demonstrator Control Pro  (DMX-CP*)
 
-![status](https://img.shields.io/badge/status-design-red)
+![status](https://img.shields.io/badge/status-prototype-orange)
 
 ## Overview
 
