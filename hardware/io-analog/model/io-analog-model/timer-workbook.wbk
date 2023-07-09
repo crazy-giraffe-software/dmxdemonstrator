@@ -1,0 +1,16 @@
+2
+2
+
+0
+9
+.tran 1u 30m 0
+3
+1
+/Discharge
+V
+1
+/PWM_output
+V
+1
+/Trigger
+V

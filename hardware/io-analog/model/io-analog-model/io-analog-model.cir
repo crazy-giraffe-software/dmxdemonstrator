@@ -1,0 +1,18 @@
+.title KiCad schematic
+.include "NE555.lib"
+.include "TLV2772.lib"
+V2 +10V 0 10
+V99 /DA_Output 0 2.5
+XU1 /DA_Output /Buffered_output +5V 0 /Buffered_output TLV2772
+XU2 /Buffered_output Net-_R1-Pad1_ +10V 0 /Analog_output TLV2772
+R3 /Analog_output 0 10k
+R1 Net-_R1-Pad1_ 0 22.6k
+R2 /Analog_output Net-_R1-Pad1_ 68.1k
+V1 +5V 0 5
+XU3 0 /Trigger /PWM_output +5V Net-_C1-Pad1_ /Trigger /Discharge +5V NE555
+C1 Net-_C1-Pad1_ 0 100n
+R4 +5V /Discharge 330
+R5 /Discharge /Trigger 10k
+C2 0 /Trigger 0.68u
+R6 /PWM_output 0 10k
+.end
