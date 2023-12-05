@@ -23,6 +23,10 @@ You can order the PCB from [OHS Park](https://oshpark.com/):
 
 ## Version History
 
+### Rev 1.3
+
+- Improved surface area of power plane
+
 ### Rev 1.2
 
 - Moved Clock LED to avoid Arduino ICSP connector.
