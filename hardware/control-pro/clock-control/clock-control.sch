@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "DMX Demonstrator - Control-Pro Clock (DMX-CPCB)"
-Date "2023-02-11"
-Rev "1.2"
+Date "2023-12-04"
+Rev "1.3"
 Comp "Crazy Giraffe Software"
 Comment1 ""
 Comment2 "Designed by: SparkyBobo"

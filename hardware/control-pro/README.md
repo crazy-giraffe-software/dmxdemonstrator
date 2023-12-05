@@ -18,15 +18,14 @@ Additionally, you'll need some parts from the common parts lists as well. You ca
 
 You can order the PCBs from [OHS Park](https://oshpark.com/):
 
-- [Clock Control: DMX-CPCB 1.2](https://oshpark.com/shared_projects/hKXlp4Hs)
-- [Clock Faceplate: DMX-CPCF 1.2](https://oshpark.com/shared_projects/NHLaTfdH)
-- [Dimmer Control: DMX-CPDB 1.2](https://oshpark.com/shared_projects/zhk7nWGn)
-- [Dimmer Faceplate: DMX-CPDF 1.2](https://oshpark.com/shared_projects/xoECW58R)
-- [Transmitter: DMX-TX2 1.2](https://oshpark.com/shared_projects/a2BHmxBT)
+- [Clock Control: DMX-CPCB 1.3](https://oshpark.com/shared_projects/???)
+- [Clock Faceplate: DMX-CPCF 1.3](https://oshpark.com/shared_projects/???)
+- [Dimmer Control: DMX-CPDB 1.3](https://oshpark.com/shared_projects/???)
+- [Dimmer Faceplate: DMX-CPDF 1.3](https://oshpark.com/shared_projects/???)
 
 ### Quality vs Price
 
-While it is counterintuitive (and in some cases wrong), splitting the clock controls and dimmer controls on different boards reduces cost. Many PCB manufacturers offer a fixed cost for board smaller than a certain size. These boards are 100mm x 100mm, which is standard max size for many low-cost board manufacturers. Others like OHSPark charge by the square inch and therefore the separate control approach is more expensive. Rev 1.1 was a single set of boards 180mm x 90mm for which OHSPark charges about $250US for 3 copies of both boards. Rev 1.2 is more expensive from OHSPark but can be as cheap as $20US for 5 copies of all 4 boards from cheaper board manufacturers. Yes, there is a quality BIG difference between those prices but the cheaper board will work just fine.
+While it is counterintuitive (and in some cases wrong), splitting the clock controls and dimmer controls on different boards reduces cost. Many PCB manufacturers offer a fixed cost for board smaller than a certain size. These boards are 100mm x 100mm, which is standard max size for many low-cost board manufacturers. Others like OHSPark charge by the square inch and therefore the separate control approach is more expensive. Rev 1.1 was a single set of boards 180mm x 90mm for which OHSPark charges about $250US for 3 copies of both boards. Rev 1.3 is more expensive from OHSPark but can be as cheap as $20US for 5 copies of all 4 boards from cheaper board manufacturers. Yes, there is a quality BIG difference between those prices but the cheaper board will work just fine.
 
 OHSPark offers really great quality at great prices, they are easy to work with, manufacture 100% in the US, and their support is excellent. I use OHSPark for almost everything I build, expect when the cost is super high. Lower cost boards can be had but if you spec the same quality board OHSPark offers at those places, you will find OHSPark to be competitive. Yes, the links above are for the more expensive OHSPark board for the reason I listed above plus ease of use: You can upload the file directly from Kicad and they can produce a board. Better yet, they will save that board for others to order. They make it so easy to order for a project like this it's silly not to use them.
 
@@ -130,6 +129,11 @@ Finally, you'll need some standoffs to hold the boards together and some feet to
 The control-pro has a few resistors and capacitors listed on the schematic. The capacitors are included in the control-pro online parts list [here](https://www.sparkfun.com/wish_lists/160543). The resistors are included in the common parts list [here](https://www.sparkfun.com/wish_lists/160406).
 
 ## Version History
+
+### Rev 1.3
+
+- Add copper pours to both faceplates
+- No changes to control boards.
 
 ### Rev 1.2
 
