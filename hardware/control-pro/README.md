@@ -1,5 +1,7 @@
 # DMX Demonstrator Control-Pro  (DMX-CP*)
 
+![status](https://img.shields.io/badge/status-design-red)
+
 ## Overview
 
 The control-pro is built to work with either transmitter or transmitter-pro. When used with an Arduino, an additional board, the DMX-TX2, is required to connect the control-pro to the Arduino. The transmitter software detects whether DMX-TX1, the standard transmitter, or DMX-=TX2, the control-pro adapter, is connected.
