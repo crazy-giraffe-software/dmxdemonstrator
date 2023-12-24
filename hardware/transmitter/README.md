@@ -1,6 +1,6 @@
 # DMX Demonstrator Transmitter (DMX-TX1)
 
-![status](https://img.shields.io/badge/status-testing-yellow)
+![status](https://img.shields.io/badge/status-verified-brightgreen)
 
 ## Overview
 
@@ -23,6 +23,16 @@ Note: The rotary potentiometer offered by sparkfun stands a total of 30mm from t
 You can order the PCB from [OHS Park](https://oshpark.com/):
 
 - [DMX-TX1, Rev 1.3](https://oshpark.com/shared_projects/BYd66lVx)
+
+## Compatibility
+
+ The DMX-TX1 is compatible with the following Arduino platforms:
+
+![compat](https://img.shields.io/badge/compat-verified-brightgreen)
+
+- Arduino Uno R3, HW Rev 1.1+, SW Ver 1.1+
+- Arduino Leonardo, HW Rev 1.1+, SW Ver 1.1+
+- Arduino Mega or Mega 2560, HW Rev 1.1+, SW Ver 1.2+
 
 ## Version History
 

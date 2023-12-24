@@ -1,6 +1,6 @@
 # DMX Demonstrator Receiver (DMX-RX1)
 
-![status](https://img.shields.io/badge/status-testing-yellow)
+![status](https://img.shields.io/badge/status-verified-brightgreen)
 
 ## Status : Testing
 
@@ -19,6 +19,16 @@ Additionally, you'll need some parts from the common parts lists as well. You ca
 You can order the PCB from [OHS Park](https://oshpark.com/):
 
 - [DMX-RX1, Rev 1.3](https://oshpark.com/shared_projects/b6uh6OMa).
+
+- ## Compatibility
+
+ The DMX-RX1 is compatible with the following Arduino platforms:
+
+![compat](https://img.shields.io/badge/compat-verified-brightgreen)
+
+- Arduino Uno R3, HW Rev 1.1+, SW Ver 1.1+
+- Arduino Leonardo, HW Rev 1.1+, SW Ver 1.1+
+- Arduino Mega or Mega 2560, HW Rev 1.1+, SW Ver 1.2+
 
 ## Version History
 
