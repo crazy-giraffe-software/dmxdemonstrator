@@ -71,7 +71,7 @@ Specifically:
   - [Sparkfun COM-11951](https://www.sparkfun.com/products/11951)
   - [Instrument Knobs with set screws, purple](https://smile.amazon.com/dp/B07QXGPP97/ref=cm_sw_em_r_mt_dp_UOcvFbW92ES6R)
 
-  The PTV09A-4030F-B103 can be a bir hard to find. A version with a shorter shaft, the PTV09A-4025F-B103, is easier to find but harder to attach a knob.
+  The PTV09A-4030F-B103 can be a bit hard to find. A version with a shorter shaft, the PTV09A-4025F-B103, is easier to find but harder to attach a knob.
   - [Datasheet](https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf)
   - [Digikey PTV09A-4025F-B103-ND](https://www.digikey.com/products/en?keywords=PTV09A-4025F-B103)
   - [Mouser 652-PTV09A-4025FB103](https://www.mouser.com/ProductDetail/Bourns/PTV09A-4025F-B103?qs=okKRLHKnSlbwMbAO07mw0g%3D%3D)
@@ -112,3 +112,30 @@ Finally, you'll need some standoffs to hold the boards together and some feet to
   - [Mouser 534-24436, aluminum](https://www.mouser.com/ProductDetail/Keystone-Electronics/24436?qs=UWqYQ%2F2cZWv7%252B7DoeljlhQ%3D%3D)
   - [Mouser 534-25513, nylon](https://www.mouser.com/ProductDetail/Keystone-Electronics/25513?qs=UWqYQ%2F2cZWtItbFiR1P%2F3w%3D%3D)
   - [Ebay M3 Aluminum Alloy Red, Blue, Purple, Black, Gold, Silver](https://www.ebay.com/itm/M3-Aluminum-Alloy-Female-Hex-Hexagon-Threaded-Bush-Sleeve-Standoff-Pillar-Spacer/174350100853?ssPageName=STRK%3AMEBIDX%3AIT&var=473550930125&_trksid=p2060353.m1438.l2649)
+
+## Version History
+
+### Rev 1.1
+
+#### DMX-TX2
+
+- Fixed shield footprint
+- Moved Clock LED to avoid Arduino ICSP connector.
+- Relabeled the clock fast and slow LED connections in the
+  schematic to match the board layout.
+- Added Fcu power plane
+- Redid Fcu layout
+- Added rounded corners
+
+#### DMX-CPB
+
+- Added rounded corners.
+
+#### DMX-CPF
+
+- Removed copper from 3rd slider slot by enlarging slot width.
+- Added rounded corners.
+
+### Rev 1.0
+
+- Initial draft, all boards.

@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "DMX Demonstrator - Transmitter for Control-Pro (DMX-TX2)"
-Date "2020-09-25"
-Rev "1.0"
+Date "2020-12-30"
+Rev "1.1"
 Comp "Crazy Giraffe Software"
 Comment1 ""
 Comment2 "Designed by: SparkyBobo"
@@ -20,7 +20,7 @@ U 1 1 5F3035A0
 P 6200 3350
 F 0 "A1" H 6000 4400 50  0000 C CNN
 F 1 "Arduino_UNO_R3" H 5750 4300 50  0000 C CNN
-F 2 "Module:Arduino_UNO_R3" H 6350 2300 50  0001 L CNN
+F 2 "footprints:ARDUINO_R3_NO_HOLES" H 6350 2300 50  0001 L CNN
 F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 6000 4400 50  0001 C CNN
 	1    6200 3350
 	-1   0    0    -1  
@@ -431,9 +431,9 @@ Entry Bus Bus
 Wire Wire Line
 	6700 3650 7050 3650
 Text Label 6750 3650 0    50   ~ 0
-~CLK_FST
-Text Label 6750 3550 0    50   ~ 0
 ~CLK_SLO
+Text Label 6750 3550 0    50   ~ 0
+~CLK_FST
 $Comp
 L Device:R_US R?
 U 1 1 5F6228C3
