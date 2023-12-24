@@ -1,12 +1,12 @@
 # DMX Demonstrator Control Pro  (DMX-CP*)
 
-![status](https://img.shields.io/badge/status-prototype-orange)
+![status](https://img.shields.io/badge/status-verified-brightgreen)
 
 ## Overview
 
-The control-pro is built to work with either transmitter or transmitter-retro. When used with an Arduino, an additional board, the DMX-TX2, is required to connect the control-pro to the Arduino. The transmitter software automatically detects whether DMX-TX1, the standard transmitter, or DMX-TX2, the control-pro adapter, is connected.
+The Control Pro is built to work with either transmitter or transmitter-retro. When used with an Arduino, an additional board, the Transmitter IO Interface (DMX-TX2), is required to connect the Control Pro to the Arduino. The transmitter software automatically detects whether DMX-TX1, the standard transmitter, or DMX-TX2, the Transmitter IO Interface, is connected.
 
-The control pro is designed so that a series of components are sandwiched between 2 circuit boards. As a result, the heights of the components are fairly sensitive in order to make things line up nicely. Here are the parts for which I designed. The DMX-CPDB and DMX-CPCB boards contains all the parts and are the bottom of the sandwich, the DMX-CPDF and DMX-CPCB are the faceplate, i.e. the tops of the sandwich. If you are wondering why there are 4 total boards, see _PCB->Quality vs Price_ below.
+The Control Pro is designed so that a series of components are sandwiched between 2 circuit boards. As a result, the heights of the components are fairly sensitive in order to make things line up nicely. The DMX-CPDB and DMX-CPCB boards contains all the parts and are the bottom of the sandwich, the DMX-CPDF and DMX-CPCB are the faceplate, i.e. the tops of the sandwich. If you are wondering why there are 4 total boards, see _PCB->Quality vs Price_ below.
 
 ## Online parts list
 
@@ -18,16 +18,16 @@ Additionally, you'll need some parts from the common parts lists as well. You ca
 
 You can order the PCBs from [OHS Park](https://oshpark.com/):
 
-- [Clock Control: DMX-CPCB 1.3](https://oshpark.com/shared_projects/???)
-- [Clock Faceplate: DMX-CPCF 1.3](https://oshpark.com/shared_projects/???)
-- [Dimmer Control: DMX-CPDB 1.3](https://oshpark.com/shared_projects/???)
-- [Dimmer Faceplate: DMX-CPDF 1.3](https://oshpark.com/shared_projects/???)
+- [Clock Control: DMX-CPCB, Rev 1.3](https://oshpark.com/shared_projects/llBuRZd8)
+- [Clock Faceplate: DMX-CPCF, Rev 1.3](https://oshpark.com/shared_projects/S9LARHyr)
+- [Dimmer Control: DMX-CPDB, Rev 1.3](https://oshpark.com/shared_projects/O76YiRT8)
+- [Dimmer Faceplate: DMX-CPDF, Rev 1.3](https://oshpark.com/shared_projects/bZqKigQF)
 
 ### Quality vs Price
 
-While it is counterintuitive (and in some cases wrong), splitting the clock controls and dimmer controls on different boards reduces cost. Many PCB manufacturers offer a fixed cost for board smaller than a certain size. These boards are 100mm x 100mm, which is standard max size for many low-cost board manufacturers. Others like OHSPark charge by the square inch and therefore the separate control approach is more expensive. Rev 1.1 was a single set of boards 180mm x 90mm for which OHSPark charges about $250US for 3 copies of both boards. Rev 1.3 is more expensive from OHSPark but can be as cheap as $20US for 5 copies of all 4 boards from cheaper board manufacturers. Yes, there is a quality BIG difference between those prices but the cheaper board will work just fine.
+While it is counterintuitive (and in some cases wrong), splitting the clock controls and dimmer controls on different boards reduces cost. Many PCB manufacturers offer a fixed cost for board smaller than a certain size. These boards are 100mm x 100mm, which is standard max size for many low-cost board manufacturers. Others like OHSPark charge by the square inch and therefore the separate control approach is more expensive. Revision 1.1 was a single set of boards 180mm x 90mm for which OHSPark charges about $250US for 3 copies of both boards. Revision 1.3 is more expensive from OHSPark but can be as cheap as $20US for 5 copies of all 4 boards from cheaper board manufacturers. Yes, there is a quality BIG difference between those prices but the cheaper board will work just fine.
 
-OHSPark offers really great quality at great prices, they are easy to work with, manufacture 100% in the US, and their support is excellent. I use OHSPark for almost everything I build, expect when the cost is super high. Lower cost boards can be had but if you spec the same quality board OHSPark offers at those places, you will find OHSPark to be competitive. Yes, the links above are for the more expensive OHSPark board for the reason I listed above plus ease of use: You can upload the file directly from Kicad and they can produce a board. Better yet, they will save that board for others to order. They make it so easy to order for a project like this it's silly not to use them.
+OHSPark offers really great quality at great prices, they are easy to work with, manufacture 100% in the US, and their support is excellent. I use OHSPark for most things I build, expect when the cost is super high. Lower cost boards can be had but if you specify the same quality board OHSPark offers, you will find OHSPark to be competitive. Yes, the links above are for the more expensive OHSPark board for the reason I listed above plus ease of use: You can upload the file directly from Kicad and they can produce a board. Better yet, they will save that board for others to order. They make it so easy to order for a project like this it's silly not to use them.
 
 I offer this opinion freely and do not receive any compensation from OHSPark.
 
@@ -94,7 +94,7 @@ I like the [Sparkfun rainbow LED Kit](https://www.sparkfun.com/products/12903) w
   - [Digikey 732-11617-ND](https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/705820170/732-11617-ND/7681962)
   - [Mouser 710-705820170](https://www.mouser.com/ProductDetail/Wurth-Elektronik/705820170?qs=wr8lucFkNMUaK6Cwpwjx5Q%3D%3D)
 
-The rainbow LED kit includes 1 red and one green LED for the data and clock. However, there are 3 sets of data and clock LEDs on the three boards. Also, there are 2 LEDs to verify detection of the control-pro, one on each board. These LEDs are included in the control-pro online parts list [here](https://www.sparkfun.com/wish_lists/160543).
+The rainbow LED kit includes 1 red and one green LED for the data and clock. However, there are 3 sets of data and clock LEDs on the three boards. Also, there are 2 LEDs to verify detection of the Control Pro, one on each board. These LEDs are included in the Control Pro online parts list [here](https://www.sparkfun.com/wish_lists/160543).
 
 ### Cable and Connector
 
@@ -126,7 +126,7 @@ Finally, you'll need some standoffs to hold the boards together and some feet to
 
 ### Passive components
 
-The control-pro has a few resistors and capacitors listed on the schematic. The capacitors are included in the control-pro online parts list [here](https://www.sparkfun.com/wish_lists/160543). The resistors are included in the common parts list [here](https://www.sparkfun.com/wish_lists/160406).
+The Control Pro has a few passive listed on the schematic and are included in the common parts list [here](https://www.sparkfun.com/wish_lists/160406).
 
 ## Version History
 
