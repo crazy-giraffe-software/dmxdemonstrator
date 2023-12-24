@@ -26,9 +26,9 @@ You can order the PCB from [OHS Park](https://oshpark.com/):
 
 ![compat](https://img.shields.io/badge/compat-verified-brightgreen)
 
-- Arduino Uno R3, HW Rev 1.1+, SW Ver 1.1+
-- Arduino Leonardo, HW Rev 1.1+, SW Ver 1.1+
-- Arduino Mega or Mega 2560, HW Rev 1.1+, SW Ver 1.2+
+- Arduino Uno R3: Hardware Revision 1.1+, Software Version 1.1+
+- Arduino Leonardo: Hardware Revision 1.1+, Software Version  1.1+
+- Arduino Mega or Mega 2560: Hardware Revision 1.1+, Software Version 1.2+
 
 ## Version History
 
